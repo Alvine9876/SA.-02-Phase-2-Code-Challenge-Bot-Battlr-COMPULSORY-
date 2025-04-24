@@ -1,12 +1,35 @@
-# React + Vite
+# Bot Battlr 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that lets you browse and build your 
+own bot army! Built with Vite, React, and Tailwind CSS.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+ Browse a collection of unique bots
+ Enlist bots to your army
+ Release bots from your army
+ Permanently discharge bots
+ Responsive design
+ Visual indicators for bot stats
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used 
+
+React 
+Vite
+Tailwind CSS
+JSON Server (backend)
+
+## Getting Started 
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Alvine9876/SA.-02-Phase-2-Code-Challenge-Bot-Battlr-COMPULSORY-
+   cd bot-battlr
