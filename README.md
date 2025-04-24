@@ -2,6 +2,7 @@
 
 A React application that lets you browse and build your 
 own bot army! Built with Vite, React, and Tailwind CSS.
+There is an image of my website in the public folder.
 
 
 ## Features
