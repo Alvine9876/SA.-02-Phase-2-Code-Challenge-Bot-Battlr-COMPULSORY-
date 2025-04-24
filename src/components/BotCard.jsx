@@ -12,13 +12,13 @@ const BotCard = ({ bot, onEnlist, onRelease, onDischarge, inArmy = false }) => {
           
           <div className="grid grid-cols-3 gap-2 my-3">
             <div className="bg-red-100 p-2 rounded text-center">
-              <p className="font-bold">❤️ {bot.health}</p>
+              <p className="font-bold"> {bot.health}</p>
             </div>
             <div className="bg-yellow-100 p-2 rounded text-center">
-              <p className="font-bold">⚔️ {bot.damage}</p>
+              <p className="font-bold"> {bot.damage}</p>
             </div>
             <div className="bg-blue-100 p-2 rounded text-center">
-              <p className="font-bold">🛡️ {bot.armor}</p>
+              <p className="font-bold"> {bot.armor}</p>
             </div>
           </div>
           
