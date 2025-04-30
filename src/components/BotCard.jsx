@@ -44,7 +44,7 @@ const BotCard = ({ bot, onEnlist, onRelease, onDischarge, inArmy = false }) => {
           ) : (
             <button
               onClick={() => onEnlist(bot)}
-              className="w-full mt-4 bg-botblue hover:bg-blue-700 text-white py-2 rounded"
+              className="w-full mt-4 bg-green-500 hover:bg-blue-700 text-white py-2 rounded"
             >
               Enlist
             </button>

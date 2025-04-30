@@ -8,14 +8,25 @@ function App() {
   const [yourArmy, setYourArmy] = useState([])
   const [loading, setLoading] = useState(true)
 
+  // useEffect(() => {
+  //   fetch('http://localhost:8001/bots')
+  //     .then(res => res.json())
+  //     .then(data => {
+  //       setBots(data)
+  //       setLoading(false)
+  //     })
+  // }, [])
+
+
   useEffect(() => {
-    fetch('http://localhost:8001/bots')
+    fetch('/db.json') 
       .then(res => res.json())
       .then(data => {
-        setBots(data)
-        setLoading(false)
-      })
-  }, [])
+        setBots(data.bots);
+        setLoading(false);
+      });
+  }, []);
+  
 
   const enlistBot = (bot) => {
     if (!yourArmy.some(b => b.id === bot.id)) {
